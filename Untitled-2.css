@@ -1,0 +1,242 @@
+
+body {
+    position: relative;
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    overflow-x: hidden;
+}
+
+
+
+.header {
+    position: fixed;
+    width: 285px;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    z-index: 11;
+    overflow-x: hidden;
+    background-color: rgb(34, 34, 34);
+}
+
+.header .header-content {
+    position: relative;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-title-block {
+    position: relative;
+    z-index: 6;
+    margin: 40px 20px 10px;
+    text-align: center;
+}
+.site-title-block .cd-words-wrapper b{
+    font-weight: normal !important;
+}
+.site-title {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2em;
+    color: rgb(177, 171, 171);
+    margin: 20px 0 0 0;
+}
+
+/* Main menu */
+.site-nav {
+    display: block;
+    padding: 25px 0 40px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+.header-main-menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.header-main-menu li {
+    display: block;
+    position: relative;
+    padding: 0;
+    padding-right: 30px;
+}
+
+.header-main-menu li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.85em;
+    color: rgb(177, 171, 171);
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 0 30px 30px 0;
+    margin-bottom: 8px;
+}
+.header-main-menu li a i {
+    color: #fff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    background-size: 400% 400% !important;
+}
+
+.header-main-menu li a:hover,
+.header-main-menu li a.active {
+    color: inherit;
+}
+
+.header .copyrights {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px 15px;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #888;
+}
+span.typed {
+    font-weight: 500;
+}
+/* /Main menu */
+
+/* Mobile menu */
+.responsive-header{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .profile-picture-block {
+        height: 90px;
+    }
+    .header-main-menu li a{
+        margin-bottom: 5px;
+    }
+    .site-nav {
+        padding: 10px 0 40px;
+    }
+    .site-title {
+        font-size: 24px;
+    }
+    .sub-page,
+    .sub-page.start-page {
+        padding-left: 0;
+    }
+    .single-page-content {
+        padding-left: 0 !important;
+        margin-left: 0;
+    }
+    .sub-page .sub-page-inner {
+        padding: 25px 20px;
+        margin-left: 0;
+    }
+    .page-content{
+        padding: 0 0 50px;
+    }
+    .content-area {
+        padding: 0;
+    }
+
+    .subpage-block {
+        margin-bottom: 40px;
+    }
+
+    .content-pages {
+        top: 55px;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: 0;
+        overflow-x: hidden;
+    }
+
+    .header-main-menu {
+        display: block;
+        float: none;
+        margin: 0;
+    }
+
+    .header-main-menu li {
+        display: block;
+        text-align: right;
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-main-menu .sub-menu {
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    .header-main-menu + .header-main-menu > li:first-child {
+        margin-left: 0;
+    }
+
+    .header .header-content {
+        padding-top: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .header .copyrights {
+        bottom: 10px;
+        position: relative;
+    }
+    .responsive-header  { 
+        height:55px;  
+        position: fixed;
+        background: #fff; 
+        z-index: 9999; 
+        width: 100%; 
+        padding: 12px 15px;
+        display: block; 
+        box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .06);
+    }
+    .responsive-header-name {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    img.responsive-logo {
+        height: 30px;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    .header{
+        display: block;
+        position:fixed;
+        right:-285px;
+        top:55px; 
+        width:285px; 
+        height:100%; 
+        z-index: 9999;
+        box-shadow: 5px 0 5px -5px rgba(35, 34, 34, 0.19);
+    }
+    .responsive-header .responsive-icon {
+        position: absolute; 
+        left:45px;
+        top: 13px;	
+        font-size: 30px;
+    }
+    
+}

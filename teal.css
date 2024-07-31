@@ -1,0 +1,209 @@
+/*
+Template Name: Mulan / CV Template + RTL
+Template URI: http://elmanawy.info/demo/mulan
+Description: Mulan for resume / cv / portfolio template that's suitable for freelanner and anyone want to create online portflolio
+Author: Marwa El-Manawy
+Author URL: https://elmanawy.info
+Version: 2.3
+*/
+a {
+    color: rgb(177, 171, 171);
+}
+a:hover {
+    color: rgb(177, 171, 171);
+}
+.pagination .paginate_button.active a  {
+    background-color: rgb(177, 171, 171);
+    color: rgb(177, 171, 171);
+}
+.title-main-page h4:before {
+    border-color: rgb(177, 171, 171);
+}
+.title-main-page p:after {
+    border-bottom: 5px solid rgb(177, 171, 171);
+}
+.sub-title h6:before {
+    background: rgb(177, 171, 171);
+}
+.section-head h4:before {
+    background: rgb(177, 171, 171);
+}
+#preloader-circle span {
+    border: 8px solid rgb(177, 171, 171);
+}
+.site-title span {
+    color: rgb(177, 171, 171);
+}
+.header-main-menu li a i {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.responsive-header  {  
+    color: rgb(177, 171, 171);
+}
+.bout-list-summry li .icon-info{
+    background: linear-gradient(135deg,rgb(177, 171, 171),rgb(177, 171, 171),rgb(177, 171, 171),rgb(177, 171, 171),rgb(177, 171, 171));
+}
+.special-block-bg::before {
+    border-color: rgb(177, 171, 171) rgb(177, 171, 171) rgb(177, 171, 171) rgb(177, 171, 171);
+}
+.special-block-bg::after {
+    border-color: rgb(177, 171, 171) rgb(177, 171, 171) rgb(177, 171, 171) rgb(177, 171, 171);
+}
+.service-block:hover h4{
+    color: rgb(177, 171, 171);
+}
+.overlay {
+    background: linear-gradient(-45deg,rgb(177, 171, 171) 0,rgb(177, 171, 171) 40%,rgb(177, 171, 171) 100%);
+}
+.pulse-icon a {
+    color: rgb(177, 171, 171);
+}
+.counter-block::before {
+    border-color: rgb(39, 39, 39) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(39, 39, 39);
+}
+.counter-block::after {
+    border-color: rgba(0, 0, 0, 0) rgb(39, 39, 39) rgb(39, 39, 39) rgba(0, 0, 0, 0);
+}
+.counter-block i {
+    color: rgb(39, 39, 39);
+}
+.testimonial-review:before {
+    color: rgb(39, 39, 39);
+}
+.owl-dot.active span{
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.timeline.currecnt .timeline-icon:after, .main-timeline .timeline:hover  .timeline-icon:after{
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.main-timeline .timeline.currecnt .title, .main-timeline .timeline:hover .title{color: rgb(39, 39, 39); }
+.progress-bar {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.filter-tabs .active-filter, .filter-tabs .fil-cat:focus, .filter-tabs .fil-cat:hover {
+    color: rgb(39, 39, 39);
+}
+.label-portfolio::before {
+    border-color: rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39);
+}
+.label-portfolio > span {
+    color: rgb(39, 39, 39);
+}
+.blog-grid-flex .blog-item:hover .blog-article > .article-link > a {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.blog-grid-flex .blog-item-quote .article-img::after {
+    background-color: rgb(39, 39, 39);
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus{
+    border-bottom: 1px solid rgb(39, 39, 39);
+}
+.bt-submit {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.contact-icon i {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.social-media-block::after {
+    border-color: rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39);
+}
+.social-media-block::before {
+    border-color: rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39) rgb(39, 39, 39);
+}
+.social-media-block a{
+    color: rgb(39, 39, 39);
+}
+.social-media-block a:hover{
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.post-meta li:hover, .post-meta li a:hover{
+    color: rgb(39, 39, 39);
+}
+#posts-nav li a:hover {
+    color: rgb(39, 39, 39);
+}
+.comment-by a.reply:hover,
+.comment-by a.reply:hover i {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+}
+.search-blog-input input:hover,  .search-blog-input input:focus{
+    border: 1px solid rgb(39, 39, 39);
+}
+.widget .search-blog-input .input button{
+    color: rgb(39, 39, 39);
+}
+.widget-text h5 a:hover {
+    color: rgb(39, 39, 39);
+}
+.tagcloud a:hover{
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39));
+    border: 1px solid rgb(39, 39, 39);
+}
+.error-content .error-message h2 {
+    color: rgb(39, 39, 39);
+}
+.error-content .error-message h2 {
+    color:rgb(39, 39, 39);
+}
+.error-content .form-error-search .btn-search {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.error-content .description a {
+    color: rgb(39, 39, 39);
+}
+.profile-picture-block {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.my-photo {
+    background: linear-gradient(135deg,rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39),rgb(39, 39, 39))
+}
+.header-main-menu li a:hover, .header-main-menu li a.active {
+    background-color: #fff;
+}
+.portfolio-grid .portfolio-item:hover .portfolio-data {
+    background-color: #fff;
+}
+.portfolio-head-content {
+    background-color: #fff;
+}
+.blog-grid-flex .blog-article .comment-like {
+    background-color: #fff;
+}
+body::-webkit-scrollbar-thumb,
+.sub-page::-webkit-scrollbar-thumb,
+.header::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+img.responsive-logo {
+    border: 3px solid #fff;
+}
+.widget .categories-list li a:hover, .widget .categories-list li a.active{
+    color: #20c997
+}
+div.datedropper.primary:before, div.datedropper.primary .pick-submit, div.datedropper.primary .pick-lg-b .pick-sl:before, div.datedropper.primary .pick-m, div.datedropper.primary .pick-lg-h{
+    background: linear-gradient(135deg,#20c997,#73fbd2,#20c997,#cafded,#73fbd2);
+    background-size: 400% 400% !important;
+}
+#td-clock-0 .td-select:after {
+    box-shadow: 0 0 0 1px #20c997 !important;
+}
+#td-clock-0 .td-clock:before {
+    border-color: #20c997 !important;
+}
+.td-select.td-rubber svg{
+    stroke: #20c997 !important;
+}
+#td-clock-0 .td-lancette {
+    border: 2px solid #20c997 !important;
+}
+#td-clock-0 .td-clock {
+    box-shadow: 0 0 0 1px #20c997, 0 0 0 8px rgba(0, 0, 0, 0.05) !important;
+}
+.list-appointments li.available i{
+    background: linear-gradient(135deg,#20c997,#73fbd2,#20c997,#cafded,#73fbd2);
+}
+.p-price {color: #20c997;}
+#planrecommended {background: #20c997;}
